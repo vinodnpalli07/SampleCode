@@ -1,0 +1,27 @@
+Type of Testing - > E2E ,System .,..differences
+test metrics
+test plan
+test strategy
+
+Nunit, test frameworks
+coded ui
+
+
+problems faced in previous projects and how did you manage?
+
+..Tell learing Neoload and calling the API's of JAR file.
+...google it out
+
+Strenghts ..weakness
+
+C#.Net
+
+WCF , WebServices , REST
+
+WhiteBox Testing, Testing Modes (V, Waterfall , Agile)
+
+Design Patterns
+
+SQL Queries
+
+Strengths & Weakness - Why are you changing.

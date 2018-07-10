@@ -1,0 +1,48 @@
+1. Why do you want to join Micorosoft
+2. Fan has no regulator , write all possible test cases to ship very gud product.
+3.Number of repeated words in a string.
+4.Reverse string without using 3rd variable.
+5.Sort the list of elements and time complexicy.
+6.Third highest salarary in the employee sal table.
+7. Left join.
+8. Diff between unique and primary key
+9.Program on reflections.
+10. All about Test Plan.
+11. Diffrence between test scenarios and test case.
+12. Extract 4 lts using 3,5,empty jars.
+13.Explain daily routines mapping, all the stake holders activities and map them to your work.
+14.All about missing bug, have you missed any bug and how u have handled.
+15.Sql performance tuning.
+16.How do you automate list of test cases/ what is your strategy.
+17. How do you pick the test tool, out of n number of tools.
+18.If your manager asked you to test a product in very less amount of time what do you do.
+19.continuty to 18, you can't add resources/ and can't work more hours.
+20. How do you handle if you miss lot of bugs because of above 18,19.
+21.If you are not gud at SQL how we can take you.
+22.Justify how do you learn and perform well without knowing SQL if you are put in a SQl project.
+23.Give top 5 options that you do, if you find bug at very late stage, say one day before release.
+24.Priorotize the 5 options mentioned for question 23.
+25.Draw a flow chart with your daily activities.
+26.Any test frame works you have worked on.
+27. Any innovative things or tools that you have developed.
+28. All about data driven test frame work.
+29. Why do we need frame work.
+30.Delete repeated letters with out using inbuilt functions.
+31.What is string type and how the memory and allocation of string will happen.
+32.Abit about UI automation.
+33.What is regular expression and usage in UI automation.
+34.How do click on the UI item if you are not able to find the control using any tools.
+35.About risks and mitigation plans.
+36. What if your manager is not gud and gave you estimates which are not feasible.
+37. What if your manager asked you to use a tool, using which you will not get better out comes.
+38, What if your manager is not agreeing with you, even after your POC proving that using the above mentioned tool is not good.
+39.What is your expected salary and why you are expecting that much.
+40.Why do you want to shift to hyderabad.
+41. Why did you shift to bangalore from hyderabad.
+
+
+
+
+
+http://www.indiabix.com/technical/sql-server-common-questions/
+http://www.dwbiconcepts.com/tutorial/24-interview-questions/190-top-20-sql-interview-questions-with-answers.html
