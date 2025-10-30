@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Run Dashboard</title>
+    <link rel="stylesheet" href="/static/css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header class="dashboard-header">
+      <h1>Test Run Analysis Dashboard</h1>
+      <div class="filters">
+        <label>
+          Plan
+          <input type="text" id="filter-plan" placeholder="Plan key" />
+        </label>
+        <label>
+          Environment
+          <input type="text" id="filter-environment" placeholder="Environment" />
+        </label>
+        <label>
+          Status
+          <input type="text" id="filter-status" placeholder="Passed/Failed" />
+        </label>
+        <button id="apply-filters">Apply</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="kpi-grid" id="kpi-cards"></section>
+
+      <section class="charts">
+        <article class="card">
+          <h2>Pass Rate Trend</h2>
+          <canvas id="passRateChart" height="120"></canvas>
+        </article>
+
+        <article class="card">
+          <h2>Failures by Error Signature</h2>
+          <canvas id="errorBreakdownChart" height="120"></canvas>
+        </article>
+      </section>
+
+      <section class="card">
+        <h2>Recent Test Runs</h2>
+        <table id="runs-table">
+          <thead>
+            <tr>
+              <th>Run ID</th>
+              <th>Plan</th>
+              <th>Status</th>
+              <th>Pass %</th>
+              <th>Failed</th>
+              <th>Duration</th>
+              <th>Started</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section class="card">
+        <h2>Common Errors</h2>
+        <ul id="common-errors"></ul>
+      </section>
+    </main>
+
+    <script src="/static/js/dashboard.js"></script>
+  </body>
+</html>
