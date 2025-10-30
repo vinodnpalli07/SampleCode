@@ -1,0 +1,64 @@
+{
+  "project": {
+    "name": "horizon_lockdown",
+    "target": "horizon_sysdv",
+    "id": "",
+    "folders": [],
+    "tc_folders": [],
+    "tc_script_ignore_patterns": []
+  },
+  "devices": [
+    {
+      "device_type": "Android",
+      "device_serial": "SDP32325043417",
+      "device_tag": "lockdown"
+    }
+  ],
+  "builds": [
+    {
+      "key": "PDM",
+      "build_dir": "out-exe",
+      "buildnum": "latest",
+      "build_offset": 0,
+      "buildnum_actual": null,
+      "flavor": "automation",
+      "jobid": "HRZN-PDM",
+      "device_tags": [
+        "lockdown"
+      ]
+    },
+    {
+      "key": "Warden",
+      "build_dir": "out-exe",
+      "buildnum": "latest",
+      "build_offset": 0,
+      "buildnum_actual": null,
+      "flavor": null,
+      "jobid": "HRZN-WAR160",
+      "device_tags": [
+        "lockdown"
+      ]
+    }
+  ],
+  "systems_pod_exe_env": "pod_dev_board",
+  "systems_pod_devboard_build": "G6-G7_PRD_PAIRING_INT4_NHS52S04_V10.1.0_115_f79d06ff.bin",
+  "fa_project": "ORION",
+  "fa_agent": "act-mqtt-agent-38",
+  "pod_control": "mqttPod",
+  "cloud_env": "eu_horizon_system_test",
+  "cgm_type": "g7Emulator",
+  "do_suppress": "False",
+  "testing_in_bamboo": "True",
+  "suppress": [
+    "warn_high_pdm_errors",
+    "warn_low_pdm_errors"
+  ],
+  "custom": {
+    "aws_profile": "RDHorizonQAPDM",
+    "user_initiated_logs_bucket": "rd-horizon-integration-userinitiatedlogs",
+    "crash_logs_bucket": "rd-horizon-integration-crashlogs",
+    "environment": "eu_horizon_system_test",
+    "ota_dismiss": "true",
+    "do_fts_with_credentials": "true"
+  }
+}
